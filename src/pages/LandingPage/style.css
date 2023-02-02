@@ -1,0 +1,29 @@
+#iniciar {
+  height: 3rem;
+  width: 15.0625rem;
+  border-radius: 0.5rem;
+  padding: 0.8125rem 1.25rem 0.8125rem 1.25rem;
+  margin: 1.5rem 2rem;
+  background-color: #FD377E;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.div-left{
+    height: 350px;
+    width: 28%;
+}
+
+.div-left img{
+    margin-bottom: 3rem;
+}
+
+.div-left h1{
+    margin-bottom: 1.5rem;
+    font-size: 2.375rem;
+}
+
+.div-left p {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,30 @@
+li{
+    margin-top: 2rem;
+    background-color: #F8F9FA;
+    padding: 1rem;
+    border-radius: 4px;
+    height: 87px;
+}
+
+li > div{
+    margin-top: 3px;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+li > span{
+    margin-right: 32rem;
+}
+
+.trash{
+    background-image: url('../../trash.svg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    content: "";
+    width: 1.375rem;
+    height: 1.375rem;
+    border-radius: 0;
+}

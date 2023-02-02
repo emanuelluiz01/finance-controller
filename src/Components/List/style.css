@@ -1,0 +1,29 @@
+#list {
+  width: 47%;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  align-items: baseline;
+}
+
+.navList > div {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  height: 40px;
+  width: 87px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover{
+  background-color: #FD377E;
+  color: #fff;
+  transition: 0.4s;
+}

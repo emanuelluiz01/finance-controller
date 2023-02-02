@@ -1,0 +1,55 @@
+aside{
+   width: 37%;
+}
+
+form{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid#E9ECEF;;
+    width: 77%;
+    border-radius: 4px;
+}
+
+#desc{
+    background: #F8F9FA;;
+    height: 3.3rem;
+    max-width: 100%;
+    border-radius: 8px;
+    padding: 0rem 0.625rem 0rem 0.625rem;
+}
+
+#value{
+    height: 48px;
+    margin: 1.5rem 2rem;
+    background: #F8F9FA;
+    border-radius: 8px;
+    width: 28%;
+    padding: 0px 10px;
+}
+
+#select{
+    height: 48px;
+    padding: 0px 10px;
+    background-color: #F8F9FA;
+    border-radius: 8px;
+}
+
+#new-value{
+    cursor: pointer;
+    height: 3rem;
+    width: 19.625rem;
+    border-radius: 8px;
+    padding: 0.8125rem 1.25rem 0.8125rem 1.25rem;
+    background-color: #FD377E;
+    color: #fff;
+    font-size: 1rem;
+}
+
+@media (max-width: 1285px) {
+    
+    #value{
+        margin: 1.5rem 1rem;
+    }
+}

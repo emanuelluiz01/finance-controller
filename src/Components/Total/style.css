@@ -1,0 +1,20 @@
+#total {
+    top: 49%;
+    border: 1px solid #E9ECEF;;
+    border-radius: 4px;
+    width: 21%;
+    position: absolute;
+}
+
+#total > div {
+    justify-content: space-between;
+    display: flex;
+    padding: 1rem;
+}
+
+@media (max-width: 1700px){
+    #total{
+        width: 26%;
+        top: 52%;
+    }
+}
